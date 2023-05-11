@@ -1,2 +1,6 @@
-# dotfiles
-.files
+# .dotfiles
+Includes:
+* alacritty
+* tmux
+* zsh
+* neovim
