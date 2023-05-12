@@ -1,6 +1,10 @@
 # .dotfiles
-Includes:
+### Includes
+* yabai
 * alacritty
 * tmux
 * zsh
 * neovim
+
+### Keybinds
+TODO
