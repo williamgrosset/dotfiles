@@ -5,6 +5,7 @@
 * tmux
 * zsh
 * neovim
+* vscode
 
 ### Keybinds
 TODO
