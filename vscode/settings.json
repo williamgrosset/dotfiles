@@ -1,0 +1,16 @@
+{
+  "update.mode": "manual",
+  "workbench.colorTheme": "GitHub Dark",
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "prettier.trailingComma": "none",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.arrowParens": "avoid",
+  "workbench.startupEditor": "none",
+  "git.ignoreMissingGitWarning": true,
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  }
+}
