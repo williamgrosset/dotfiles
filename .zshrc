@@ -25,6 +25,9 @@ alias gch="git checkout"
 alias ga="git add --all"
 alias gc="git commit -m"
 
+## Python
+alias python=/usr/local/bin/python3
+
 # Paths
 ## oh-my-zsh installation
 export ZSH="/Users/williamgrosset/.oh-my-zsh"
@@ -36,7 +39,6 @@ function load-nvm {
   [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 }
 
-# nvm
 if [[ "x${TERM_PROGRAM}" = "xvscode" ]]; then
   # do nothing
 else
@@ -45,6 +47,3 @@ fi
 
 ## Ruby
 eval "$(rbenv init - zsh)"
-
-## Python
-alias python=/usr/local/bin/python3
