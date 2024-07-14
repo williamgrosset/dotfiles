@@ -1,16 +1,8 @@
-# dotfiles
+<!-- Screenshot here -->
 
-My developer environment.
+My development tools
 
-## Includes
-* [Alacritty](https://alacritty.org/) (Terminal)
-* [Zsh](https://ohmyz.sh/) (Shell)
-* [Neovim](https://neovim.io/) (Text Editor)
-* [VSCode](https://code.visualstudio.com/) (IDE)
-
-## TODO
-* Setup scripts for
-  * First-time installation
-  * Updates to repo
-* Include tmux, yabai
-* Add SS
+- [Alacritty](https://github.com/alacritty/alacritty)
+- [Tmux](https://github.com/tmux/tmux)
+- [Zsh](https://github.com/ohmyzsh/ohmyzsh)
+- [Neovim](https://github.com/neovim/neovim)
