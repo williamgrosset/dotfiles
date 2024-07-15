@@ -1,7 +1,6 @@
 #!/usr/bin/env fish
 
 set WEZTERM_SOURCE "$HOME/.config/wezterm"
-set FISH_CONFIG_SOURCE "$HOME/.config/fish/config.fish"
 set NVIM_SOURCE "$HOME/.config/nvim"
 set STARSHIP_SOURCE "$HOME/.config/starship"
 set FISH_CONFIG_SOURCE "$HOME/.config/fish/config.fish"
