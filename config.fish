@@ -1,3 +1,6 @@
+# Hide greeting
+set fish_greeting ""
+
 # Editor
 set -gx EDITOR nvim
 
@@ -20,6 +23,5 @@ alias gc "git commit -m"
 ## Python
 alias python "/usr/local/bin/python3"
 
-# Prompts
-## Starship
+# Initialize Starship
 starship init fish | source

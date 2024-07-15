@@ -1,10 +1,10 @@
+# Disable initial new line
 add_newline = false
 
 [character]
 success_symbol = '[➜](bold green)'
 
-# Nerd Font Symbols Preset
-
+# Nerd Font Symbols preset
 [aws]
 symbol = "  "
 
