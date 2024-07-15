@@ -11,6 +11,9 @@ alias v "nvim"
 ## Eza
 alias l "eza -la --icons"
 
+## Bat
+alias cat "bat"
+
 ## Git
 alias gs "git status"
 alias gd "git diff"
@@ -23,7 +26,7 @@ alias gc "git commit -m"
 ## Python
 alias python "/usr/local/bin/python3"
 
-# Starship prompt
+# Starship
 ## Config path
 set -x STARSHIP_CONFIG ~/.config/starship/starship.toml
 ## Initialize
