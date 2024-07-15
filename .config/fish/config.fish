@@ -23,5 +23,8 @@ alias gc "git commit -m"
 ## Python
 alias python "/usr/local/bin/python3"
 
-# Initialize Starship
+# Starship prompt
+## Config path
+set -x STARSHIP_CONFIG ~/.config/starship/starship.toml
+## Initialize
 starship init fish | source
