@@ -30,6 +30,10 @@ alias gc "git commit -m"
 alias python "/usr/local/bin/python3"
 
 # Paths
+## XDG
+set -x XDG_CONFIG_HOME ~/.config
+
+## Starship
 set -x STARSHIP_CONFIG ~/.config/starship/starship.toml
 
 # Initialize tools
