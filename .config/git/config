@@ -3,23 +3,31 @@
   email = williamhgrosset@gmail.com
 
 [core]
-    pager = delta
+  editor = nvim
+  pager = delta
+
+[merge]
+  conflictstyle = zdiff3
 
 [interactive]
-    diffFilter = delta --color-only --features=interactive
+  diffFilter = delta --color-only
+
+[include]
+  path = ~/.config/git/themes/tokyonight_night.gitconfig
 
 [delta]
-    features = decorations
-
-[delta "interactive"]
-    keep-plus-minus-markers = false
+  true-color = always
+  side-by-side = false
+  line-numbers = true
+  navigate = true
+  features = decorations
+  syntax-theme = tokyonight_night
 
 [delta "decorations"]
-    commit-decoration-style = blue ol
-    commit-style = raw
-    file-style = omit
-    hunk-header-decoration-style = blue box
-    hunk-header-file-style = red
-    hunk-header-line-number-style = "#067a00"
-    hunk-header-style = file line-number syntax
-
+  commit-decoration-style = blue ol
+  commit-style = raw
+  file-style = omit
+  hunk-header-decoration-style = blue box
+  hunk-header-file-style = red
+  hunk-header-line-number-style = "#067a00"
+  hunk-header-style = file line-number syntax
