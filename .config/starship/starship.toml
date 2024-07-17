@@ -1,8 +1,11 @@
-# Disable initial new line
 add_newline = false
 
 [character]
 success_symbol = '[➜](bold green)'
+
+[sudo]
+disabled = false
+style = 'bold red'
 
 # Nerd Font Symbols preset
 [aws]
@@ -139,6 +142,7 @@ Windows = "󰍲 "
 
 [package]
 symbol = "󰏗 "
+display_private = true
 
 [perl]
 symbol = " "
