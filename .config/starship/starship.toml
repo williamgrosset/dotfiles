@@ -26,6 +26,7 @@ truncate_to_repo = false
 before_repo_root_style = 'dimmed bold cyan'
 repo_root_style = 'bold cyan'
 
+# Nerd Font symbol
 [git_branch]
 symbol = " "
 
@@ -34,7 +35,7 @@ format = "took [$duration]($style)\n"
 
 [character]
 success_symbol = '[➜](bold green)'
-error_symbol = '[➜](red)'
+error_symbol = '[➜](bold red)'
 
 [sudo]
 disabled = false
