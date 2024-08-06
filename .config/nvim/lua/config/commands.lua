@@ -1,2 +1,2 @@
 vim.cmd('syntax enable')
-vim.cmd[[colorscheme tokyonight-night]]
+vim.cmd[[colorscheme dracula]]
