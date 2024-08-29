@@ -36,6 +36,9 @@ set -x XDG_CONFIG_HOME ~/.config
 ## Starship
 set -x STARSHIP_CONFIG ~/.config/starship/starship.toml
 
+## Rust
+set -x PATH ~/.cargo/bin $PATH
+
 # Initialize tools
 starship init fish | source
 zoxide init fish | source
