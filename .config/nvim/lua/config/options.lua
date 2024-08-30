@@ -20,3 +20,6 @@ vim.opt.foldlevelstart = 20
 
 -- Search
 vim.opt.hlsearch = true
+
+-- Clipboard
+vim.opt.clipboard = "unnamedplus"
