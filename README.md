@@ -1,4 +1,4 @@
-My development tools
+My tools
 
 - [Wezterm](https://github.com/wez/wezterm) terminal
 - [Fish](https://github.com/fish-shell/fish-shell) shell
