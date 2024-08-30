@@ -39,6 +39,9 @@ set -x STARSHIP_CONFIG ~/.config/starship/starship.toml
 ## Rust
 set -x PATH ~/.cargo/bin $PATH
 
+## Deno
+set -Ux fish_user_paths $fish_user_paths ~/.deno/bin
+
 # Initialize tools
 starship init fish | source
 zoxide init fish | source
