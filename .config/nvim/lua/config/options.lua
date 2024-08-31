@@ -23,3 +23,6 @@ vim.opt.hlsearch = true
 
 -- Clipboard
 vim.opt.clipboard = "unnamedplus"
+
+-- Functional
+vim.opt.endofline = false
