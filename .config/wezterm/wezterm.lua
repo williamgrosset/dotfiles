@@ -18,4 +18,12 @@ config.cursor_thickness = 2
 -- Audio
 config.audible_bell = 'Disabled'
 
+-- Padding
+config.window_padding = {
+  left = 10,
+  right = 10,
+  top = 10,
+  bottom = 0
+}
+
 return config
