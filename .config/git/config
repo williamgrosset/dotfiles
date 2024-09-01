@@ -13,9 +13,10 @@
   diffFilter = delta --color-only
 
 [delta]
+  navigate = true
   line-numbers = true
   syntax-theme = Dracula
-  plus-style = "syntax #012800"
   minus-style = "syntax #340001"
-  highlight-removed = "red bold"
-  highlight-added = "green bold"
+  plus-style = "syntax #012800"
+  line-numbers-minus-style = "red"
+  line-numbers-plus-style = "green"
