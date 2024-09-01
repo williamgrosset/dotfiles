@@ -4,10 +4,9 @@ echo "Defining configuration sources..."
 set WEZTERM_SOURCE "$HOME/.config/wezterm"
 set NVIM_SOURCE "$HOME/.config/nvim"
 set STARSHIP_SOURCE "$HOME/.config/starship"
+set BAT_SOURCE "$HOME/.config/bat"
 set GIT_CONFIG_SOURCE "$HOME/.config/git/config"
 set FISH_CONFIG_SOURCE "$HOME/.config/fish/config.fish"
-set BAT_CONFIG_SOURCE "$HOME/.config/bat/config"
-
 set TARGET_DIR (pwd)"/.config"
 
 echo "Removing existing target directories..."
@@ -21,14 +20,13 @@ rm -rf $TARGET_DIR/starship
 echo "Creating target directories..."
 mkdir -p $TARGET_DIR/git
 mkdir -p $TARGET_DIR/fish
-mkdir -p $TARGET_DIR/bat
 
 echo "Copying configuration..."
 cp -r $WEZTERM_SOURCE $TARGET_DIR
 cp -r $NVIM_SOURCE $TARGET_DIR
 cp -r $STARSHIP_SOURCE $TARGET_DIR
+cp -r $BAT_SOURCE $TARGET_DIR
 cp $GIT_CONFIG_SOURCE $TARGET_DIR/git
 cp $FISH_CONFIG_SOURCE $TARGET_DIR/fish
-cp $BAT_CONFIG_SOURCE $TARGET_DIR/bat
 
 echo "Dotfiles have been copied to $TARGET_DIR"
