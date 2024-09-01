@@ -23,7 +23,8 @@ alias gd "git diff"
 alias gp "git push"
 alias gb "git branch"
 alias gch "git checkout"
-alias ga "git add --all"
+alias ga "git add"
+alias gall "git add --all"
 alias gc "git commit -m"
 
 ## Python

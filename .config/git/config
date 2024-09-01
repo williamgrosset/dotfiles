@@ -13,5 +13,9 @@
   diffFilter = delta --color-only
 
 [delta]
-  features = side-by-side line-numbers decorations
+  line-numbers = true
   syntax-theme = Dracula
+  plus-style = "syntax #012800"
+  minus-style = "syntax #340001"
+  highlight-removed = "red bold"
+  highlight-added = "green bold"
