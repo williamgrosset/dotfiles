@@ -1,12 +1,12 @@
 {
   "Comment.nvim": { "branch": "master", "commit": "e51f2b142d88bb666dcaa77d93a07f4b419aca70" },
+  "LazyVim": { "branch": "main", "commit": "12818a6cb499456f4903c5d8e68af43753ebc869" },
   "LuaSnip": { "branch": "master", "commit": "03c8e67eb7293c404845b3982db895d59c0d1538" },
   "cmp-buffer": { "branch": "main", "commit": "3022dbc9166796b644a841a02de8dd1cc1d311fa" },
   "cmp-cmdline": { "branch": "main", "commit": "d250c63aa13ead745e3a40f61fdd3470efde3923" },
   "cmp-nvim-lsp": { "branch": "main", "commit": "39e2eda76828d88b773cc27a3f61d2ad782c922d" },
   "cmp-path": { "branch": "main", "commit": "91ff86cd9c29299a64f968ebb45846c485725f23" },
   "cmp_luasnip": { "branch": "master", "commit": "05a9ab28b53f71d1aece421ef32fee2cb857a843" },
-  "diffview.nvim": { "branch": "main", "commit": "4516612fe98ff56ae0415a259ff6361a89419b0a" },
   "dracula.nvim": { "branch": "main", "commit": "fdf503e52ec1c8aae07353604d891fe5a3ed5201" },
   "flash.nvim": { "branch": "main", "commit": "ec0bf2842189f65f60fd40bf3557cac1029cc932" },
   "fzf-lua": { "branch": "main", "commit": "1572a89acf8c468a230f0f5ee7092a15496213ee" },
@@ -18,10 +18,10 @@
   "nvim-autopairs": { "branch": "master", "commit": "19606af7c039271d5aa96bceff101e7523af3136" },
   "nvim-cmp": { "branch": "main", "commit": "983453e32cb35533a119725883c04436d16c0120" },
   "nvim-lspconfig": { "branch": "master", "commit": "0b8165cf95806bc4bb8f745bb0c92021b2ed4b98" },
+  "nvim-scrollview": { "branch": "main", "commit": "30ca6e18265928eb4ea7402346b4dfddbd8ce41e" },
   "nvim-tree.lua": { "branch": "master", "commit": "ad0b95dee55955817af635fa121f6e2486b10583" },
   "nvim-treesitter": { "branch": "master", "commit": "f197a15b0d1e8d555263af20add51450e5aaa1f0" },
   "nvim-treesitter-textobjects": { "branch": "master", "commit": "3a3c6244553f13fdd92d312c82722b57ce6c4bec" },
   "nvim-web-devicons": { "branch": "master", "commit": "5b9067899ee6a2538891573500e8fd6ff008440f" },
-  "peek.nvim": { "branch": "master", "commit": "5820d937d5414baea5f586dc2a3d912a74636e5b" },
-  "satellite.nvim": { "branch": "main", "commit": "34cdb017ebb239bdba5a5ac23c6307837b5e3b7e" }
+  "peek.nvim": { "branch": "master", "commit": "5820d937d5414baea5f586dc2a3d912a74636e5b" }
 }
