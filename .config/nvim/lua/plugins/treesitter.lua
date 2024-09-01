@@ -4,6 +4,21 @@ return {
     build = ":TSUpdate",
     opts = function()
       require"nvim-treesitter.configs".setup {
+        ensure_installed = {
+          "c",
+          "rust",
+          "python",
+          "lua",
+          "javascript",
+          "typescript",
+          "tsx",
+          "json",
+          "bash",
+          "fish",
+          "make",
+          "git_config",
+          "dockerfile"
+        },
         highlight = {
           enable = true,
         }
