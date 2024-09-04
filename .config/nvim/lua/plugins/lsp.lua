@@ -18,7 +18,7 @@ return {
     after = 'mason.nvim',
     config = function()
       require("mason-lspconfig").setup({
-        ensure_installed = { "lua_ls", "rust_analyzer", "tsserver" },
+        ensure_installed = { "lua_ls", "rust_analyzer", "tsserver", "pyright" },
         automatic_installation = true
       })
     end
@@ -45,6 +45,10 @@ return {
       }
 
       lspconfig.tsserver.setup {
+        capabilities = capabilities
+      }
+
+      lspconfig.pyright.setup {
         capabilities = capabilities
       }
     end
