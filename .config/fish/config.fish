@@ -24,7 +24,7 @@ alias gp "git push"
 alias gb "git branch"
 alias gch "git checkout"
 alias ga "git add"
-alias gal "git add --all"
+alias gall "git add --all"
 alias gc "git commit -m"
 
 ## Python
