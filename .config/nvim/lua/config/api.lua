@@ -1,7 +1,8 @@
--- Set the background and text color for the LSP tooltip
 vim.api.nvim_set_hl(0, "NormalFloat", { bg = "#1e222a", fg = "#abb2bf" })
--- Set the border color for the LSP tooltip
 vim.api.nvim_set_hl(0, "FloatBorder", { bg = "#1e222a", fg = "#61afef" })
+vim.api.nvim_set_hl(0, "Pmenu", { bg = "#1e222a", fg = "#abb2bf" })
+vim.api.nvim_set_hl(0, "PmenuSel", { bg = "#61afef", fg = "#1e222a" })
+vim.api.nvim_set_hl(0, "PmenuSbar", { bg = "#1e222a" })
 
 local border = {
   {"╭", "FloatBorder"},
