@@ -1,6 +1,10 @@
 local wezterm = require 'wezterm'
 local config = wezterm.config_builder()
 
+-- FPS
+config.max_fps = 240
+config.animation_fps = 240
+
 -- Color scheme
 config.color_scheme = 'Dracula (Official)'
 
