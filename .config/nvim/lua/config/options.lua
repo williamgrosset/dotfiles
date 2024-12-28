@@ -26,3 +26,9 @@ vim.opt.clipboard = "unnamedplus"
 
 -- Functional
 vim.opt.endofline = false
+
+-- Cursor
+vim.opt.guicursor = table.concat({
+  "n-v-c:block-blinkon1",
+  "i:ver25-blinkwait700-blinkon400-blinkoff250"
+}, ",")
