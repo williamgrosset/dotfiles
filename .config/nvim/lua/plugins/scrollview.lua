@@ -1,3 +1,10 @@
 return {
-  "dstein64/nvim-scrollview"
+  "petertriho/nvim-scrollbar",
+  config = function()
+    require("scrollbar").setup({
+      handlers = {
+        diagnostic = true
+      }
+    })
+  end
 }
