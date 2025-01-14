@@ -18,4 +18,10 @@ local border = {
   {"│", "FloatBorder"},
 }
 
+-- LSP
 vim.lsp.handlers["textDocument/hover"] = vim.lsp.with(vim.lsp.handlers.hover, { border = border })
+
+-- Diagnostic
+vim.diagnostic.config({
+  signs = false
+})
