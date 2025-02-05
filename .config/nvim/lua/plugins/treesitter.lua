@@ -3,21 +3,27 @@ return {
     "nvim-treesitter/nvim-treesitter",
     build = ":TSUpdate",
     opts = function()
-      require"nvim-treesitter.configs".setup {
+      require "nvim-treesitter.configs".setup {
         ensure_installed = {
           "c",
           "rust",
           "python",
           "lua",
+          "html",
+          "css",
+          "scss",
           "javascript",
           "typescript",
           "tsx",
+          "prisma",
           "json",
+          "yaml",
           "bash",
           "fish",
           "make",
+          "dockerfile",
           "git_config",
-          "dockerfile"
+          "markdown",
         },
         highlight = {
           enable = true,
