@@ -46,7 +46,7 @@ set -x PATH ~/.cargo/bin $PATH
 set -Ux fish_user_paths $fish_user_paths ~/.deno/bin
 
 ## pipx
-set -Ux PATH $PATH ~/.local/bin
+set PATH $PATH /Users/williamgrosset/.local/bin
 
 # Initialize tools
 starship init fish | source
