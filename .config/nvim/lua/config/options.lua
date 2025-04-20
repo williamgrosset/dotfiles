@@ -26,6 +26,7 @@ vim.opt.clipboard = "unnamedplus"
 
 -- Functional
 vim.opt.endofline = false
+vim.opt.fixeol = false
 
 -- Cursor
 vim.opt.guicursor = table.concat({
