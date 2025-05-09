@@ -32,6 +32,9 @@ alias gr "git restore"
 ## Python
 alias python "/usr/local/bin/python3"
 
+## Corepack
+set -x COREPACK_ENABLE_AUTO_PIN 0
+
 # Paths
 ## XDG
 set -x XDG_CONFIG_HOME ~/.config
