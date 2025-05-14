@@ -10,7 +10,7 @@ $time
 $directory\
 $git_branch
 $cmd_duration\
-$character
+$character\
 """
 
 [time]
@@ -25,10 +25,6 @@ truncation_length = 0
 truncate_to_repo = false
 before_repo_root_style = 'dimmed bold cyan'
 repo_root_style = 'bold cyan'
-
-# Nerd Font symbol
-[git_branch]
-symbol = " "
 
 [cmd_duration]
 format = "took [$duration]($style)\n"
