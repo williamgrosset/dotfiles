@@ -54,6 +54,13 @@ set -Ux fish_user_paths $fish_user_paths ~/.deno/bin
 ## pipx
 set PATH $PATH /Users/williamgrosset/.local/bin
 
+# Volta
+set -gx VOLTA_HOME "$HOME/.volta"
+set -gx PATH "$VOLTA_HOME/bin" $PATH
+
+# Opencode Path
+fish_add_path /Users/williamgrosset/.opencode/bin
+
 # Initialize tools
 starship init fish | source
 zoxide init fish | source
@@ -62,8 +69,3 @@ zoxide init fish | source
 if test -f ~/.config/fish/secrets.fish
   source ~/.config/fish/secrets.fish
 end
-set -gx VOLTA_HOME "$HOME/.volta"
-set -gx PATH "$VOLTA_HOME/bin" $PATH
-
-# opencode
-fish_add_path /Users/williamgrosset/.opencode/bin
