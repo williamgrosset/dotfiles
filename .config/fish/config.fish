@@ -29,6 +29,9 @@ alias gall "git add --all"
 alias gc "git commit -m"
 alias gr "git restore"
 
+## Opencode
+alias agent "opencode"
+
 ## Python
 alias python "/usr/local/bin/python3"
 
@@ -59,3 +62,8 @@ zoxide init fish | source
 if test -f ~/.config/fish/secrets.fish
   source ~/.config/fish/secrets.fish
 end
+set -gx VOLTA_HOME "$HOME/.volta"
+set -gx PATH "$VOLTA_HOME/bin" $PATH
+
+# opencode
+fish_add_path /Users/williamgrosset/.opencode/bin
