@@ -1,5 +1,6 @@
 local wezterm = require 'wezterm'
 local config = wezterm.config_builder()
+local act = wezterm.action
 
 -- FPS
 config.max_fps = 240
@@ -28,6 +29,13 @@ config.window_padding = {
   right = 10,
   top = 10,
   bottom = 0
+}
+
+-- Tabs
+config.keys = {
+  -- Reorder
+  { key = "LeftArrow",  mods = "CTRL|SHIFT", action = act.MoveTabRelative(-1) },
+  { key = "RightArrow", mods = "CTRL|SHIFT", action = act.MoveTabRelative(1) },
 }
 
 return config
