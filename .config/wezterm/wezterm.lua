@@ -31,11 +31,14 @@ config.window_padding = {
   bottom = 0
 }
 
--- Tabs
+-- Keys
 config.keys = {
-  -- Reorder
+  -- Tabs Reorder
   { key = "LeftArrow",  mods = "CTRL|SHIFT", action = act.MoveTabRelative(-1) },
   { key = "RightArrow", mods = "CTRL|SHIFT", action = act.MoveTabRelative(1) },
+  -- Fullscreen
+  { key = 'f', mods = 'CTRL|CMD', action = wezterm.action.ToggleFullScreen },
+
 }
 
 return config
