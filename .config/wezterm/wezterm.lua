@@ -2,6 +2,9 @@ local wezterm = require 'wezterm'
 local config = wezterm.config_builder()
 local act = wezterm.action
 
+-- Native fullscreen
+config.native_macos_fullscreen_mode = true
+
 -- FPS
 config.max_fps = 240
 config.animation_fps = 240
@@ -33,12 +36,11 @@ config.window_padding = {
 
 -- Keys
 config.keys = {
-  -- Tabs Reorder
+  -- Tabs reorder
   { key = "LeftArrow",  mods = "CTRL|SHIFT", action = act.MoveTabRelative(-1) },
   { key = "RightArrow", mods = "CTRL|SHIFT", action = act.MoveTabRelative(1) },
   -- Fullscreen
   { key = 'f', mods = 'CTRL|CMD', action = wezterm.action.ToggleFullScreen },
-
 }
 
 return config
