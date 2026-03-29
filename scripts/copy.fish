@@ -7,6 +7,7 @@ set STARSHIP_SOURCE "$HOME/.config/starship"
 set BAT_SOURCE "$HOME/.config/bat"
 set GIT_CONFIG_SOURCE "$HOME/.config/git/config"
 set FISH_CONFIG_SOURCE "$HOME/.config/fish/config.fish"
+set FISH_FUNCTIONS_SOURCE "$HOME/.config/fish/functions"
 set OPENCODE_SOURCE "$HOME/.config/opencode"
 set GHOSTTY_SOURCE "$HOME/.config/ghostty"
 set TARGET_DIR (pwd)"/.config"
@@ -33,6 +34,7 @@ cp -r $STARSHIP_SOURCE $TARGET_DIR
 cp -r $BAT_SOURCE $TARGET_DIR
 cp $GIT_CONFIG_SOURCE $TARGET_DIR/git
 cp $FISH_CONFIG_SOURCE $TARGET_DIR/fish
+cp -r $FISH_FUNCTIONS_SOURCE $TARGET_DIR/fish
 cp -r $OPENCODE_SOURCE $TARGET_DIR
 cp -r $GHOSTTY_SOURCE $TARGET_DIR
 
