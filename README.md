@@ -6,4 +6,3 @@ My development tools
 - [Cmux](https://www.cmux.dev)
 - [OpenCode](https://opencode.ai)
 - [Claude Code](https://www.anthropic.com/claude-code)
-- [Cursor](https://cursor.com)
